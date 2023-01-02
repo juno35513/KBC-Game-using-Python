@@ -1,0 +1,55 @@
+import sys
+
+print("Welcome To Kaun Banega Crorepati")
+print("Click 1 to play or 0 to exit")
+x=0
+while (x<1):
+ x = int(input())
+ if x==0:
+  print("Exit")
+  sys. exit()
+ elif (x==1):
+  print("Lets play the game")
+ else:
+  print("invalid input")
+  print("\nFuck You Bitch🖕")
+  sys. exit()
+
+
+prize = 0
+
+print("1.What comes before 4?\n(1)2\n(2)3\n(3)5\n(4)8")
+print("\nChoose the correct option")
+a = int(input())
+if (a != 2):
+ print("Wrong answer you lost the game\nYou earned",prize,"rupees")
+ sys. exit()
+else:
+ prize+= 1000
+ print("Correct answer you won",prize,"rupees\n")
+
+
+print("2.What comes after 5?\n(1)9\n(2)7\n(3)0\n(4)6")
+print("\nChoose the correct option")
+a = int(input())
+if (a != 4):
+ print("Wrong answer you lost the game\nYou earned",prize,"rupees")
+ sys. exit()
+else:
+ prize+= 1000
+ print("Correct answer you won ",prize,"rupees\n")
+
+
+print("3.Which one is Smaller?\n(1)20\n(2)80\n(3)50\n(4)30")
+print("\nChoose the correct option")
+a = int(input())
+if (a != 1):
+ print("Wrong answer you lost the game\nYou earned",prize,"rupees")
+ sys. exit()
+else:
+ prize+= 1000
+ print("\n✨✨✨Game Completed ✨✨✨")
+
+
+print("Congratulations you WON the game and you earned",prize,"rupees")
+    
